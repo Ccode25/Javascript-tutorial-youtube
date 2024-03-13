@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      function computerPick() {
+        let randomNumber = Math.random();
+        const computerPick = randomNumber <= 0.5 ? 'Head' : 'Tail' 
+        return computerPick}
+
+      function guessPick(playerPick) {
+        let computerpick = computerPick();
+        return playerPick === computerpick ? 'Win' : 'Lose' }
+
+      let result = guessPick('Tail');
+      console.log(result);
+    </script>
+  </body>
+</html>

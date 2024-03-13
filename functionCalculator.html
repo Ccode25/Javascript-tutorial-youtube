@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p>
+    <button onclick="calculatorResult('1')
+    ">
+      1
+    </button>
+    <button onclick="calculatorResult('2')
+      ">
+      2
+    </button>
+    <button onclick="calculatorResult('3')
+      ">
+      3
+    </button>
+    <button onclick="calculatorResult('+')
+      ">
+      +
+    </button>
+
+    <p>
+      <button onclick="calculatorResult('4')
+      ">
+      4
+    </button>
+    <button onclick="calculatorResult('5')
+      ">
+      5
+    </button>
+    <button onclick="calculatorResult('6')
+      ">
+      6
+    </button>
+    <button onclick="calculatorResult('-')
+      ">
+      -
+    </button>
+    </p>
+
+    <p>
+      <button onclick="calculatorResult('7')
+      ">
+      7
+    </button>
+    <button onclick="calculatorResult('8')
+      ">
+      8
+    </button>
+    <button onclick="calculatorResult('9')
+      ">
+      9
+    </button>
+    <button onclick="calculatorResult('*')
+      ">
+      *
+    </button>
+    </p>
+
+    <p>
+      <button onclick="calculatorResult('0')
+      ">
+      0
+    </button>
+    <button onclick="calculatorResult('.')
+      ">
+      .
+    </button>
+    <button onclick="calculation = eval(calculation)
+    console.log(calculation);
+      ">
+      =
+    </button>
+    <button onclick="calculatorResult('/')
+      ">
+      /
+    </button>
+    </p>
+
+    <p>
+      <button onclick="calculation = ''
+      console.log(calculation)
+    ">
+      clear
+    </button>
+    </p>
+
+
+    <script>
+      let calculation ='';
+      function calculatorResult(value) {
+        calculation += value;
+        console.log(calculation);
+      }
+
+    
+      
+    </script>
+  </body>
+</html>
